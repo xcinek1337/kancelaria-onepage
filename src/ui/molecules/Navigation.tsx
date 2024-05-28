@@ -18,7 +18,7 @@ export const Navigation = () => {
 		}
 	};
 	return (
-		<nav className="bg-white py-4 shadow-md md:sticky md:top-0 ">
+		<nav className="relative bg-white py-4 shadow-md ">
 			<Wrapper>
 				<div className="flex items-center justify-between">
 					<div>
@@ -34,8 +34,8 @@ export const Navigation = () => {
 					</div>
 
 					<ul
-						className={` absolute left-0 flex min-h-[100vh]  w-[50%] flex-col items-start  gap-12 bg-slate-50/95 px-3 pt-20 font-mono text-lg duration-500 md:static md:min-h-fit md:w-auto md:flex-row md:bg-transparent md:pt-0 ${
-							isMenuOpen ? "top-[0%]" : "top-[-100%]"
+						className={` absolute left-0 top-0 z-60 flex min-h-[100vh] w-[50%] flex-col  items-start gap-12 pt-10  bg-white/95 px-3 font-mono text-lg duration-500 md:static md:min-h-fit md:w-auto md:flex-row md:bg-transparent md:pt-0 ${
+							isMenuOpen ? "left-[0%]" : "left-[-100%]"
 						}`}
 					>
 						<li className="md:hidden">

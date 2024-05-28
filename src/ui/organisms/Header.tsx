@@ -1,13 +1,10 @@
-import { ContactBar } from "@/ui/molecules/ContactBar";
+
 import { Navigation } from "@/ui/molecules/Navigation";
 
 export const Header = () => {
 	return (
-		<header>
-			<ContactBar />
-			<div className="border-2 border-orange-300 md:sticky md:top-0 ">
+		<header className="sticky top-0 z-50 shadow-md">
 				<Navigation />
-			</div>
 		</header>
 	);
 };
