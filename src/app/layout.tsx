@@ -7,7 +7,7 @@ import { Header } from '@/ui/organisms/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Kancelaria Gołębiowski & Kryska',
+	title: 'Kancelaria  aaaa&aaaa ',
 	description: 'Specjalizujemy się w prawie cywilnym, gospodarczym, handlowym, pracy i upadłościowym. Wrocław.',
 };
 
