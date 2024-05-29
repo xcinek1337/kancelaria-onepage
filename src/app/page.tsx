@@ -1,9 +1,9 @@
-import { HeroSection } from "@/ui/organisms/HeroSection";
+import { HeroImg } from "@/ui/organisms/HeroImg";
 
 export default function Home() {
 	return (
-		<main className="flex w-full m-auto  min-h-[120vh] flex-col items-center justify-between bg-black">
-			<HeroSection />
+		<main className="min-h-[120vh] w-full">
+			<HeroImg />
 		</main>
 	);
 }
