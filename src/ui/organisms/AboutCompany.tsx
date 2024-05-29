@@ -25,7 +25,7 @@ export const AboutCompany = () => {
 
 				<div className="bg-brownie mx-auto mt-4 h-1 w-12 rounded-md md:w-20"></div>
 
-				<h2 className="font-playfair mt-4 text-4xl md:text-5xl lg:mt-8 lg:text-7xl ">
+				<h2 className="font-playfair mt-4 text-4xl md:text-5xl lg:mt-8 lg:text-6xl ">
 					Doświadczenie. Zespół. Rezultaty.
 				</h2>
 
