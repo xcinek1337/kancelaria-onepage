@@ -1,5 +1,5 @@
-import { Wrapper } from "@/ui/atoms/Wrapper";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
+import { Wrapper } from "@/ui/atoms/Wrapper";
 
 const members = [
 	{
