@@ -9,6 +9,9 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				brownie: "#DFBF8F",
+			},
 			fontFamily: {
 				playfair: ["Playfair Display", "serif"],
 			},

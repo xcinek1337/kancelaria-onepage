@@ -18,7 +18,7 @@ export const Navigation = () => {
 		}
 	};
 	return (
-		<nav className="relative bg-white py-4 shadow-md ">
+		<nav className="relative bg-white py-4 px-3 md:px-4 shadow-md ">
 			<Wrapper>
 				<div className="flex items-center justify-between">
 					<div>
