@@ -19,7 +19,7 @@ export const Contact = () => {
 	return (
 		<section className="text-center">
 			<div
-				className="h-[650px] w-full bg-cover bg-fixed bg-top bg-no-repeat"
+				className="h-[700px] w-full bg-cover bg-fixed bg-top bg-no-repeat md:h-[600px]"
 				style={{ backgroundImage: `url(${picture})` }}
 			>
 				<div className="h-full w-full bg-amber-300/15 px-3 pt-10 backdrop-brightness-50">
