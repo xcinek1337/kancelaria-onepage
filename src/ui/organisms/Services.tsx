@@ -1,20 +1,11 @@
 import { Wrapper } from "@/ui/atoms/Wrapper";
-const tiles = [
-	{ txt: "Prawo Cywilne", url: "tile1.jpg" },
-	{ txt: "Prawo Rzeczowe", url: "tile2.jpg" },
-	{ txt: "Prawo Spadkowe", url: "tile3.jpg" },
-	{ txt: "Prawo Gospodarcze", url: "tile4.jpg" },
-	{ txt: "Prawo Spółek Handlowych", url: "tile5.jpg" },
-	{ txt: "Upadłość Gospodarcza", url: "tile6.jpg" },
-	{ txt: "Upadłość Konsumencka", url: "tile7.jpg" },
-	{ txt: "Dowiedz Się Więcej...", url: "tile8.jpg" },
-];
 
+import { tiles } from "@/data/data";
 export const Services = () => {
 	return (
 		<section className="mt-14   text-center ">
 			<Wrapper>
-				<h2 className="font-playfair decoration-brownie mt-4 px-4 text-4xl underline decoration-4 md:text-5xl lg:mt-8 lg:text-6xl">
+				<h2 className="mt-4 px-4 font-playfair text-4xl underline decoration-brownie decoration-4 md:text-5xl lg:mt-8 lg:text-6xl">
 					Nasze Dziedziny Praktyk
 				</h2>
 				<p className="text- mt-9 px-4 text-sm tracking-wider text-gray-600">
@@ -32,8 +23,8 @@ export const Services = () => {
 							className=" h-[250px] bg-cover bg-center bg-no-repeat "
 							style={{ backgroundImage: `url(${tile.url})` }}
 						>
-							<div className="flex h-full w-full items-center  justify-center  backdrop-brightness-[.35] duration-700  hover:backdrop-sepia ">
-								<h3 className="font-playfair text-3xl text-white">{tile.txt}</h3>
+							<div className="flex h-full w-full items-center  justify-center  backdrop-brightness-[.25] duration-700  hover:backdrop-sepia ">
+								<h3 className="font-playfair font-semibold text-3xl  text-white">{tile.txt}</h3>
 							</div>
 						</div>
 					);

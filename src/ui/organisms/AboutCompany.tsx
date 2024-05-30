@@ -1,20 +1,7 @@
 import { CalendarHeartIcon, HandshakeIcon } from "lucide-react";
 import { Wrapper } from "@/ui/atoms/Wrapper";
 
-const AboutCompanyCards = [
-	{
-		title: "15+",
-		description: "Ponad 15 lat doświadczenia",
-	},
-	{
-		title: <HandshakeIcon size={48} />,
-		description: "Zaufanie stawiamy na pierwszym miejscu",
-	},
-	{
-		title: <CalendarHeartIcon size={48} />,
-		description: "Gwarantujemy świetne terminy rozpoczęcia współpracy",
-	},
-];
+import { AboutCompanyCards } from "@/data/data";
 
 export const AboutCompany = () => {
 	return (
@@ -25,9 +12,9 @@ export const AboutCompany = () => {
 						Witaj w naszej Kancelarii
 					</p>
 
-					<div className="bg-brownie mx-auto mt-4 h-1 w-12 rounded-md md:w-20"></div>
+					<div className="mx-auto mt-4 h-1 w-12 rounded-md bg-brownie md:w-20"></div>
 
-					<h2 className="font-playfair mt-4 text-4xl md:text-5xl lg:mt-8 lg:text-6xl ">
+					<h2 className="mt-4 font-playfair text-4xl md:text-5xl lg:mt-8 lg:text-6xl ">
 						Doświadczenie. Zespół. Rezultaty.
 					</h2>
 
@@ -36,10 +23,21 @@ export const AboutCompany = () => {
 						jakości
 					</p>
 
-					<div className="border-brownie mx-auto mt-10 flex flex-col justify-center gap-14 rounded-sm border-8 px-2 py-6 sm:gap-20 md:w-[90%]  md:flex-row lg:mt-16 lg:w-[75%]">
+					<div className="mx-auto mt-10 flex flex-col justify-center gap-14 rounded-sm border-8 border-brownie px-2 py-6 sm:gap-20 md:w-[90%]  md:flex-row lg:mt-16 lg:w-[75%]">
 						{AboutCompanyCards.map((card, i) => (
 							<div key={i} className="flex flex-col  items-center md:w-1/3 ">
 								<p className="font-playfair text-6xl">{card.title}</p>
+								{card.handshake && (
+									<p className="font-playfair text-6xl">
+										<HandshakeIcon size={48}/>
+									</p>
+								)}
+								{card.calendar && (
+									<p className="font-playfair text-6xl">
+										<CalendarHeartIcon size={48}/>
+									</p>
+								)}
+
 								<p className="mt-2 text-sm text-gray-500">{card.description}</p>
 							</div>
 						))}

@@ -1,16 +1,10 @@
 "use client";
 import { Wrapper } from "@/ui/atoms/Wrapper";
+import { formFields } from "@/data/data";
 export const Contact = () => {
 	const picture = "form1.jpg";
 
-	const inputStyle =
-		"w-full rounded border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-amber-300";
-
-	const formFields = [
-		{ type: "text", placeholder: "Imię", style: `${inputStyle}` },
-		{ type: "text", placeholder: "Email", style: `${inputStyle}` },
-		{ type: "text", placeholder: "Temat", style: `${inputStyle}` },
-	];
+	
 
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
