@@ -23,7 +23,7 @@ export const Services = () => {
 							className=" h-[250px] bg-cover bg-center bg-no-repeat "
 							style={{ backgroundImage: `url(${tile.url})` }}
 						>
-							<div className="flex h-full w-full items-center  justify-center  backdrop-brightness-[.25] duration-700  hover:backdrop-sepia ">
+							<div className="flex h-full w-full items-center  justify-center  bg-transparent/60 duration-700  hover:backdrop-sepia ">
 								<h3 className="font-playfair text-3xl font-semibold  text-white">{tile.txt}</h3>
 							</div>
 						</div>
