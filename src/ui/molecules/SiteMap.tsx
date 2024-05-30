@@ -1,7 +1,7 @@
 import { siteMap } from "@/data/data";
 export const SiteMap = () => {
 	return (
-		<div className="mt-9 flex flex-auto flex-col  gap-7 px-6 md:flex-row ">
+		<div className="mt-9 lg:mt-12 flex flex-auto flex-col  gap-7 px-6 md:flex-row ">
 			{siteMap.map((info, i) => {
 				return (
 					<div className={info.flex} key={i}>
