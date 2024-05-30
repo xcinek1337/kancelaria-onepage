@@ -17,7 +17,7 @@ export const HeroImg = () => {
 	}
 	return (
 		<div
-			className="relative h-[50vh] w-screen bg-cover bg-center bg-no-repeat md:h-[65vh] lg:h-[86vh]"
+			className="relative h-[50vh] duration-500 w-screen bg-cover bg-center bg-no-repeat md:h-[65vh] lg:h-[86vh]"
 			style={{ backgroundImage: `url(${slides[currentSlide].url})` }}
 		>
 			<div className="- flex h-full  items-center justify-center bg-amber-50/25 text-center backdrop-brightness-[.45]">
