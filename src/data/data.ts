@@ -80,13 +80,11 @@ export const members = [
 		tt: "#home",
 	},
 ];
-const inputStyle =
-	"w-full rounded border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-amber-300";
 
 export const formFields = [
-	{ type: "text", placeholder: "Imię", style: `${inputStyle}` },
-	{ type: "text", placeholder: "Email", style: `${inputStyle}` },
-	{ type: "text", placeholder: "Temat", style: `${inputStyle}` },
+	{ type: "text", placeholder: "Imię", },
+	{ type: "text", placeholder: "Email",  },
+	{ type: "text", placeholder: "Temat",  },
 ];
 export const siteMap = [
 	{

@@ -33,7 +33,7 @@ export const Contact = () => {
 										<div key={i}>
 											<input
 												placeholder={field.placeholder}
-												className={field.style}
+												className='input-form'
 												type={field.type}
 											/>
 										</div>
