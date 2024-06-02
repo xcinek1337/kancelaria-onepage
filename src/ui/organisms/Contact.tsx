@@ -11,7 +11,7 @@ export const Contact = () => {
 	};
 
 	return (
-		<section className="text-center">
+		<section id="kontakt" className="text-center">
 			<div
 				className="h-[700px] w-full bg-cover bg-fixed bg-top bg-no-repeat md:h-[600px]"
 				style={{ backgroundImage: `url(${picture})` }}

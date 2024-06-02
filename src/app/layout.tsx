@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html className="p-0 m-0 scroll-smooth box-border" lang="en">
-			<body className={`${inter.className}`}>
+			<body id="start" className={`${inter.className}`}>
 				<ContactBar />
 				<Header />
 				<main>{children}</main>

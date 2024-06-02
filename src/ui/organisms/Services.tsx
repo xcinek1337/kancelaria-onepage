@@ -3,7 +3,7 @@ import { Wrapper } from "@/ui/atoms/Wrapper";
 import { tiles } from "@/data/data";
 export const Services = () => {
 	return (
-		<section className="mt-14 text-center ">
+		<section id="obszary-doradztwa" className="mt-14 text-center ">
 			<Wrapper>
 				<h2 className="mt-4 px-4 font-playfair text-4xl underline decoration-brownie decoration-4 md:text-5xl lg:mt-16 lg:text-6xl">
 					Nasze Dziedziny Praktyk

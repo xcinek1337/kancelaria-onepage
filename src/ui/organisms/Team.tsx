@@ -5,7 +5,7 @@ import { members } from "@/data/data";
 
 export const Team = () => {
 	return (
-		<section className="mb-12 mt-8 px-4 text-center">
+		<section id="o-nas" className="mb-12 mt-8 px-4 text-center">
 			<Wrapper>
 				<h2 className="font-playfair decoration-brownie mt-4 lg:mt-12 px-4 text-4xl underline decoration-4 md:text-5xl lg:mt-8 lg:text-6xl">
 					Poznaj Nas
