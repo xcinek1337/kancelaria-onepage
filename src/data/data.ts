@@ -53,7 +53,7 @@ export const members = [
 		name: "Mariusz Gołębiowski",
 		position: "radca prawny",
 		description:
-			"Radca prawny od 2003 r. skupiający swoją praktykę zawodową na obsłudze prawnej spółek prawa handlowego takich jak PKP CARGO S.A. oraz PKP S.A. Oddział Gospodarowania Nieruchomościami we Wrocławiu. ",
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. ",
 		img: "member1.jpg",
 		fb: "",
 		ln: "#home",
@@ -63,7 +63,7 @@ export const members = [
 		name: "Jarosław Kryska",
 		position: "radca prawny",
 		description:
-			"Radca prawny od ... specjalizujący się w szeroko rozumianym prawie cywilnym (prawo rzeczowe, prawo spadkowe), prawie pracy oraz w prawie budowlanym.",
+			"t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has. Many desktop.",
 		img: "member2.jpg",
 		ln: "",
 		fb: "home",
@@ -73,7 +73,7 @@ export const members = [
 		name: "Magdalena George",
 		position: "Specjalista ds prawnych",
 		description:
-			"Absolwentka studiów licencjackich na kierunku administracja oraz obecnie studentka prawa.",
+			"here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a .",
 		img: "member3.jpg",
 		ln: "https://www.linkedin.com/in/magdalena-george?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADnl-d4BQqhf3tljFhOXhPePBa-Nlg5Nqy8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BWvzjjcDjTmafXDNkjx%2B%2BlQ%3D%3D",
 		fb: "https://www.facebook.com/magdaa.george",

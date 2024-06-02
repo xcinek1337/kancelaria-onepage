@@ -42,14 +42,14 @@ export const Contact = () => {
 							</div>
 							<div className="mb-4">
 								<textarea
-									placeholder="Wiadomość"
+									placeholder="Wiadomość..."
 									className="w-full rounded border border-gray-300 p-2 focus:outline-none focus:ring-2 focus:ring-amber-300"
 									rows={6}
 								></textarea>
 							</div>
 							<button
 								type="submit"
-								className="w-full  rounded border-2  border-amber-500 p-2 font-semibold text-amber-500 transition duration-200 hover:bg-amber-500/50"
+								className="w-full  rounded border-2  border-amber-500 p-2 font-semibold hover:text-gray-200 text-amber-500 transition duration-300 hover:bg-amber-500/50"
 							>
 								Wyślij
 							</button>

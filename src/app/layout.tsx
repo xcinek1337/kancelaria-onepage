@@ -8,7 +8,7 @@ import { ContactBar } from "@/ui/molecules/ContactBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Kancelaria  aaaa&aaaa ",
+	title: "Kancelaria Gołębiowski & KRYSKA | Wrocław ",
 	description:
 		"Specjalizujemy się w prawie cywilnym, gospodarczym, handlowym, pracy i upadłościowym. Wrocław.",
 };
@@ -19,7 +19,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html className="p-0 m-0 box-border" lang="en">
+		<html className="p-0 m-0 scroll-smooth box-border" lang="en">
 			<body className={`${inter.className}`}>
 				<ContactBar />
 				<Header />
@@ -27,15 +27,4 @@ export default function RootLayout({
 			</body>
 		</html>
 	);
-}
-{
-	/* <html lang="en">
-				<body className={inter.className}>
-					<Header />
-					<main className="mx-8 my-8 sm:mx-24">{children}</main>
-					<BottomNav />
-					<Footer />
-					{sidebar}
-				</body>
-			</html> */
 }
