@@ -7,33 +7,31 @@
 
 @import "tailwindcss/utilities";
 
+/* divine size navbar in nav scrolling */
+html {
+	scroll-padding-top: 123px;
+}
+
 .input-form {
 	width: 100%;
-	border-radius: 0.25rem; 
-	border: 1px solid #d1d5db; 
+	border-radius: 0.25rem;
+	border: 1px solid #d1d5db;
 	padding: 0.5rem;
-	outline: none; 
+	outline: none;
 }
 
 .input-form:focus {
-	box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.5); 
+	box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.5);
 }
-.hero{
-	background-image: url('/hero-full.jpg');
-}
-section:before {
-	height: 90px;
-	content: "";
-	display: block;
+.hero {
+	background-image: url("/hero-full.jpg");
 }
 
 @media only screen and (max-width: 768px) {
-	section:before {
-		height: 67px;
-		content: "";
-		display: block;
+	html {
+		scroll-padding-top: 70px;
 	}
-	.hero{
-		background-image: url('/hero-small.jpg');
+	.hero {
+		background-image: url("/hero-small.jpg");
 	}
 }
