@@ -106,8 +106,6 @@ export const members = [
 	{
 		name: "Mariusz Gołębiowski",
 		position: "radca prawny",
-		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled. ",
 		img: "member1.jpg",
 		fb: "",
 		ln: "#home",
@@ -116,8 +114,6 @@ export const members = [
 	{
 		name: "Jarosław Kryska",
 		position: "radca prawny",
-		description:
-			"t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has. Many desktop.",
 		img: "member2.jpg",
 		ln: "",
 		fb: "home",
@@ -126,8 +122,6 @@ export const members = [
 	{
 		name: "Magdalena George",
 		position: "Specjalista ds prawnych",
-		description:
-			"here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a .",
 		img: "member3.jpg",
 		ln: "https://www.linkedin.com/in/magdalena-george?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADnl-d4BQqhf3tljFhOXhPePBa-Nlg5Nqy8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BWvzjjcDjTmafXDNkjx%2B%2BlQ%3D%3D",
 		fb: "https://www.facebook.com/magdaa.george",

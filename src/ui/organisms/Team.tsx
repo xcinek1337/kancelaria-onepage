@@ -41,9 +41,7 @@ export const Team = () => {
 									{member.name}
 								</h3>
 								<div className="bg-brownie mx-auto mt-4 h-1 w-12 rounded-md md:w-20"></div>
-								<p className="mt-4 font-sans text-sm tracking-wider text-gray-600 lg:text-base">
-									{member.description}
-								</p>
+								
 							</div>
 						);
 					})}
