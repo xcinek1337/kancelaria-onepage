@@ -9,16 +9,18 @@
 
 .input-form {
 	width: 100%;
-	border-radius: 0.25rem; /* rounded */
-	border: 1px solid #d1d5db; /* border-gray-300 */
-	padding: 0.5rem; /* p-2 */
-	outline: none; /* focus:outline-none */
+	border-radius: 0.25rem; 
+	border: 1px solid #d1d5db; 
+	padding: 0.5rem;
+	outline: none; 
 }
 
 .input-form:focus {
-	box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.5); /* focus:ring-2 focus:ring-amber-300 */
+	box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.5); 
 }
-
+.hero{
+	background-image: url('/hero-full.jpg');
+}
 section:before {
 	height: 90px;
 	content: "";
@@ -30,5 +32,8 @@ section:before {
 		height: 67px;
 		content: "";
 		display: block;
+	}
+	.hero{
+		background-image: url('/hero-small.jpg');
 	}
 }

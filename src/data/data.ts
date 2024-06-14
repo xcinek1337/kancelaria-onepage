@@ -6,24 +6,6 @@ export const navigation = [
 	{ style: "md:hidden", href: "#kontakt", text: "Kontakt" },
 	{ style: "md:hidden", href: "#start", text: "", icons: true },
 ];
-export const slides = [
-	{
-		url: "/pic4-high.jpg",
-		description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum?",
-		title: "Eksperci w Prawie, Partnerzy w Życiu",
-	},
-	{
-		url: "/pic2-high.jpg",
-		description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
-		title: "Profesjonalizm i Zaufanie w Każdym Kroku",
-	},
-	{
-		url: "/pic3-high.jpg",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eligendi aliquam porro ipsam.",
-		title: "Twoje Prawa, Nasza Misja",
-	},
-];
 export const AboutCompanyCards = [
 	{
 		title: "15+",
