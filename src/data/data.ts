@@ -21,14 +21,86 @@ export const AboutCompanyCards = [
 	},
 ];
 export const tiles = [
-	{ txt: "Prawo Cywilne", url: "tile1.jpg" },
-	{ txt: "Prawo Rzeczowe", url: "tile2.jpg" },
-	{ txt: "Prawo Spadkowe", url: "tile3.jpg" },
-	{ txt: "Prawo Gospodarcze", url: "tile4.jpg" },
-	{ txt: "Prawo Spółek Handlowych", url: "tile5.jpg" },
-	{ txt: "Upadłość Gospodarcza", url: "tile6.jpg" },
-	{ txt: "Upadłość Konsumencka", url: "tile7.jpg" },
-	{ txt: "Dowiedz Się Więcej...", url: "tile8.jpg" },
+	{
+		txt: "Prawo spółek handlowych",
+		url: "tile1.jpg",
+		describe: ["zakładanie spółek", "bieżąca obsługa prawna"],
+	},
+	{
+		txt: "Prawo pracy",
+		url: "tile2.jpg",
+		describe: [
+			"przygotowywanie opinii prawnych",
+			"nawiązywanie i rozwiązywanie stosunków pracy",
+			"zwolnienia grupowe",
+			"reprezentacja w sporach sądowych przed sądami wszystkich instancji",
+		],
+	},
+	{
+		txt: "Prawo nieruchomości",
+		url: "tile3.jpg",
+		describe: [],
+	},
+	{
+		txt: "Prawo spadkowe",
+		url: "tile4.jpg",
+		describe: ["testament", "dział spadku", "zachowek", "odrzucenie spadku"],
+	},
+	{
+		txt: "Prawo administracyjne",
+		url: "tile5.jpg",
+		describe: [],
+	},
+	{
+		txt: "Upadłość konsumencka",
+		url: "tile6.jpg",
+		describe: [
+			"złożenie wniosku o ogłoszenie upadłości konsumenckiej",
+			"reprezentacja przed sądem w postępowaniu wywołanym wnioskiem o ogłoszenie upadłości",
+			"przygotowywanie pism procesowych",
+		],
+	},
+	{
+		txt: "Windykacja",
+		url: "tile7.jpg",
+		describe: [
+			"przygotowywanie wezwań do zapłaty",
+			"przygotowywanie pozwów o zapłatę",
+			"uzyskanie tytułu wykonawczego",
+			"skierowanie sprawy do egzekucji",
+		],
+	},
+	{
+		txt: "Prawo budowlane",
+		url: "tile8.jpg",
+		describe: [],
+	},
+	{
+		txt: "Prawo gospodarcze",
+		url: "tile9.jpg",
+		describe: [],
+	},
+	{
+		txt: "Prawo cywilne",
+		url: "tile10.jpg",
+		describe: [
+			"sprawy cywilne o zapłatę",
+			"sprawy eksmisyjne",
+			"zasiedzenie",
+			"podział majątku",
+			"zniesienie współwłasności",
+		],
+	},
+	{
+		txt: "Obsługa prawna firm",
+		url: "tile11.jpg",
+		describe: [],
+	},
+	{
+		txt: "Doradztwo prawne",
+		url: "tile12.jpg",
+		describe: [],
+	},
 ];
 export const members = [
 	{
@@ -64,9 +136,9 @@ export const members = [
 ];
 
 export const formFields = [
-	{ type: "text", placeholder: "Imię", },
-	{ type: "text", placeholder: "Email",  },
-	{ type: "text", placeholder: "Temat",  },
+	{ type: "text", placeholder: "Imię" },
+	{ type: "text", placeholder: "Email" },
+	{ type: "text", placeholder: "Temat" },
 ];
 export const siteMap = [
 	{
@@ -83,14 +155,14 @@ export const siteMap = [
 	},
 	{
 		title: "ADRES",
-		desc: "ul. Lazienna 21/37",
-		desc2: "Wroclaw 55-555",
+		desc: "ul.Joannitów 13/332",
+		desc2: "Wroclaw 50-525",
 		flex: "flex-2",
 	},
 	{
 		title: "KONTAKT",
-		desc: "telefon: 123 123 123 ",
-		desc2: "email: przykladowy@wp.pl",
+		desc: "telefon: 71 71 71 257",
+		desc2: "email: kancelariapartnerska@gmail.com",
 		flex: "flex-2",
 	},
 ];

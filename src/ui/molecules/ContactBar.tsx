@@ -10,12 +10,12 @@ export const ContactBar = () => {
 				<div className="flex flex-col gap-3 text-xs text-gray-400 sm:flex-row">
 					<address className="flex items-center gap-2 not-italic">
 						<Phone color="grey" size={16} />
-						<a href="tel:0001112222">(000) 111-2222</a>
+						<a href="tel:717171257">71 71 71 257</a>
 					</address>
 
-					<a className="flex items-center gap-2" href="mailto:contact@example.com">
+					<a className="flex items-center gap-2" href="mailto:kancelariapartnerska@gmail.com">
 						<Mail color="grey" size={16} />
-						contact@example.com
+						kancelariapartnerska@gmail.com
 					</a>
 				</div>
 
