@@ -88,16 +88,6 @@ export const tiles = [
 		],
 	},
 	{
-		txt: "Prawo budowlane",
-		url: "tile8.jpg",
-		describe: ['Skontaktuj sie z nami'],
-	},
-	{
-		txt: "Prawo gospodarcze",
-		url: "tile9.jpg",
-		describe: ['Skontaktuj sie z nami'],
-	},
-	{
 		txt: "Prawo cywilne",
 		url: "tile10.jpg",
 		describe: [
@@ -107,18 +97,10 @@ export const tiles = [
 			"podział majątku",
 			"opiniowanie i sporządzanie umów cywilnoprawnych",
 			"sprawy o zapłatę",
-			"zasiedzenie","eksmisja","zniesienie współwłasności"
+			"zasiedzenie",
+			"eksmisja",
+			"zniesienie współwłasności",
 		],
-	},
-	{
-		txt: "Obsługa prawna firm",
-		url: "tile11.jpg",
-		describe: ['Skontaktuj sie z nami'],
-	},
-	{
-		txt: "Doradztwo prawne",
-		url: "tile12.jpg",
-		describe: ['Skontaktuj sie z nami'],
 	},
 ];
 export const members = [
@@ -129,7 +111,8 @@ export const members = [
 		fb: "",
 		ln: "#home",
 		tt: "#home",
-		description: "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek prawa handlowego. Specjalizuje się w prawie cywilnym, gospodarczym oraz handlowym. "
+		description:
+			"Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek prawa handlowego. Specjalizuje się w prawie cywilnym, gospodarczym oraz handlowym. ",
 	},
 	{
 		name: "Jarosław Kryska",
@@ -138,7 +121,8 @@ export const members = [
 		ln: "",
 		fb: "home",
 		tt: "home",
-		description: "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym"
+		description:
+			"Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym",
 	},
 	{
 		name: "Magdalena George",
@@ -147,7 +131,8 @@ export const members = [
 		ln: "https://www.linkedin.com/in/magdalena-george?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADnl-d4BQqhf3tljFhOXhPePBa-Nlg5Nqy8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BWvzjjcDjTmafXDNkjx%2B%2BlQ%3D%3D",
 		fb: "https://www.facebook.com/magdaa.george",
 		tt: "#home",
-		description: "Absolwentka studiów licencjackich na kierunku administracja na Uniwersytecie Wrocławskim. Posiada wieloletnie doświadczenie pracy w biurze kancelarii, obejmujące przygotowywanie projektów pism procesowych, obsługę systemów informatycznych kancelarii, obsługę systemów elektronicznego obiegu dokumentów w firmie (SEOD), monitorowanie spraw egzekucyjnych, kontakt z sądami i komornikami"
+		description:
+			"Absolwentka studiów licencjackich na kierunku administracja na Uniwersytecie Wrocławskim. Posiada wieloletnie doświadczenie pracy w biurze kancelarii, obejmujące przygotowywanie projektów pism procesowych, obsługę systemów informatycznych kancelarii, obsługę systemów elektronicznego obiegu dokumentów w firmie (SEOD), monitorowanie spraw egzekucyjnych, kontakt z sądami i komornikami",
 	},
 ];
 
