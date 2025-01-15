@@ -62,11 +62,18 @@ html {
 	color: white;
 	transform: rotateY(180deg);
 }
+.about-us {
+	width: 44%;
+}
 
 @media only screen and (max-width: 768px) {
 	html {
 		scroll-padding-top: 70px;
 	}
+	.about-us {
+		width: 100%;
+	}
+
 	.hero {
 		background-image: url("/hero-small.jpg");
 	}

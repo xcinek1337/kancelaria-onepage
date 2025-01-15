@@ -12,11 +12,19 @@ export const AboutCompany = () => {
 						Witaj w naszej Kancelarii
 					</p>
 
-					<div className="mx-auto mt-4 h-1 w-12 rounded-md bg-brownie md:w-20"></div>
+					<p className="font-serif tracking-wide mt-8 px-4 text-lg md:text-2xl lg:text-4xl">
+						Kancelaria specjalizuje się w kompleksowej obsłudze prawnej przedsiębiorców, spółek
+						prawa handlowego oraz klientów indywidualnych. Dzięki wieloletniemu doświadczeniu
+						zapewniamy naszym klientom wsparcie na najwyższym poziomie merytorycznym. Posiadamy
+						doświadczenie w występowaniu przed sądami administracyjnymi, powszechnymi oraz Sądem
+						Najwyższym. Dzięki dogłębnej wiedzy i skuteczności osiągamy wymierne rezultaty w
+						rozwiązywaniu nawet najbardziej złożonych problemów prawnych.
+					</p>
+					<div className="mx-auto mt-8 h-1 w-12 rounded-md bg-brownie md:w-20"></div>
 
-					<h2 className="mt-4 font-playfair text-4xl md:text-5xl lg:mt-8 lg:text-6xl ">
+					<h6 className="mt-4 font-playfair text-sm">
 						Doświadczenie. Zespół. Rezultaty.
-					</h2>
+					</h6>
 
 					<p className="mt-8 px-4 font-serif text-sm tracking-wide text-gray-500 md:text-base lg:mt-12 lg:text-lg">
 						Stawiamy sobie za zadanie dostarczanie naszym klientom usług na najwyższym poziomie
@@ -29,12 +37,12 @@ export const AboutCompany = () => {
 								<p className="font-playfair text-6xl">{card.title}</p>
 								{card.handshake && (
 									<p className="font-playfair text-6xl">
-										<HandshakeIcon size={48}/>
+										<HandshakeIcon size={48} />
 									</p>
 								)}
 								{card.calendar && (
 									<p className="font-playfair text-6xl">
-										<CalendarHeartIcon size={48}/>
+										<CalendarHeartIcon size={48} />
 									</p>
 								)}
 

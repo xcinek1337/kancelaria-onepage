@@ -7,10 +7,10 @@ export const Team = () => {
 	return (
 		<section id="o-nas" className="mb-12 mt-8 px-4 text-center">
 			<Wrapper>
-				<h2 className="font-playfair decoration-brownie mt-4 lg:mt-12 px-4 text-4xl underline decoration-4 md:text-5xl lg:text-6xl">
+				<h2 className="mt-4 px-4 font-playfair text-4xl underline decoration-brownie decoration-4 md:text-5xl lg:mt-12 lg:text-6xl">
 					Poznaj Nas
 				</h2>
-				<div className="mt-10 lg:mt-16 flex flex-col items-center justify-between gap-9 md:grid md:grid-cols-3 md:gap-11">
+				<div className="mt-10 flex flex-col items-center justify-between gap-9 md:grid md:grid-cols-3 md:gap-11 lg:mt-16">
 					{members.map((member, i) => {
 						return (
 							<div key={i} className="mx-auto h-full w-full max-w-xs">
@@ -37,11 +37,13 @@ export const Team = () => {
 										</a>
 									)}
 								</div>
-								<h3 className="font-playfair mt-4 text-2xl md:text-3xl lg:text-4xl">
+								<h3 className="mt-4 font-playfair text-2xl md:text-3xl lg:text-4xl">
 									{member.name}
 								</h3>
-								<div className="bg-brownie mx-auto mt-4 h-1 w-12 rounded-md md:w-20"></div>
-								
+								<div className="mx-auto mt-4 h-1 w-12 rounded-md bg-brownie md:w-20"></div>
+								<p className="my-6 md:my-8 px-4 font-serif text-sm tracking-wide text-gray-500 md:text-base lg:mt-12 lg:text-lg">
+									{member.description}
+								</p>
 							</div>
 						);
 					})}
