@@ -1,0 +1,69 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital@0;1&display=swap"); */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* divine size navbar in nav scrolling */
+html {
+  scroll-padding-top: 123px;
+}
+
+.hero {
+  background-image: url("/hero-full.jpg");
+}
+
+.perspective {
+  perspective: 1000px;
+}
+.flip-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-size: cover;
+  background-position: center;
+}
+.flip-card-back {
+  background-color: #dfbf8f;
+  color: white;
+  transform: rotateY(180deg);
+}
+.about-us {
+  width: 44%;
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+  .about-us {
+    width: 100%;
+  }
+
+  .hero {
+    background-image: url("/hero-small.jpg");
+  }
+}

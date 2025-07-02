@@ -1,0 +1,25 @@
+---
+import { Header } from '../components/ui/organisms/Header.jsx';
+import { ContactBar } from '../components/ui/molecules/ContactBar.jsx';
+import '../styles/globals.css';
+import "../styles/fonts/fonts.css";
+---
+
+<html lang="pl" class="p-0 m-0 scroll-smooth box-border">
+  <head>
+    <title>Kancelaria Gołębiowski & KRYSKA | Wrocław</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Specjalizujemy się w prawie cywilnym, gospodarczym, handlowym, pracy i upadłościowym. Wrocław." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+  </head>
+  <body id="start" class="font-inter">
+    <ContactBar />
+    <Header />
+    <main class="min-h-[120vh] w-full">
+      <slot />   <!-- tu wstawiają się treści z podstron -->
+    </main>
+  </body>
+</html>
