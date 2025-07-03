@@ -12,8 +12,9 @@ export default {
         brownie: "#DFBF8F",
       },
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
-        lato: ["Lato", "sans-serif"],
+        LoraCustom: ["LoraCustom", "serif"],
+        Lora: ["Lora", "serif"],
+        Mulish: ["Mulish", "serif"],
       },
     },
   },

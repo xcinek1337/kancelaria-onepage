@@ -1,8 +1,48 @@
+import {
+  Scale,
+  FileText,
+  FileStack,
+  HandHelping,
+  Megaphone,
+  Users,
+  Factory,
+} from "lucide-react";
+export const services = [
+  {
+    txt: "Porady prawne",
+    icon: Scale,
+  },
+  {
+    txt: "Sporządzanie umów",
+    icon: FileText,
+  },
+  {
+    txt: "Opiniowanie umów",
+    icon: FileStack,
+  },
+  {
+    txt: "Negocjajce prawne",
+    icon: HandHelping,
+  },
+  {
+    txt: "Mediacja sądowa",
+    icon: Megaphone,
+  },
+  {
+    txt: "Zastępstwo prawne",
+    icon: Users,
+  },
+  {
+    txt: "Obsługa prawna przedsiębiorców",
+    icon: Factory,
+  },
+];
 export const navigation = [
-  { style: "md:hidden", href: "#start", text: "", logo: true },
-  { style: "border-b-2 border-brownie", href: "#start", text: "Start" },
-  { style: "", href: "#obszary-doradztwa", text: "Obszary Doradztwa" },
-  { style: "", href: "#o-nas", text: "Nasz Zespół" },
+  { style: "md:hidden", href: "/#start", text: "", logo: true },
+  { style: "border-b-2 border-brownie", href: "/#start", text: "Start" },
+  { style: "", href: "/#specjalizacje", text: "Specjalizacje" },
+  { style: "", href: "/#uslugi", text: "Usługi" },
+  { style: "", href: "/#o-nas", text: "Nasz Zespół" },
   { style: "md:hidden", href: "#kontakt", text: "Kontakt" },
   { style: "md:hidden", href: "#start", text: "", icons: true },
 ];
@@ -24,6 +64,7 @@ export const tiles = [
   {
     txt: "Prawo spółek handlowych",
     url: "tile1.jpg",
+    slug: "prawo-spolki",
     describe: [
       "zakładanie, przekształcanie, łącznie, podział i likwidacja spółek",
       "obsługa prawna organów spółek kapitałowych",
@@ -33,6 +74,7 @@ export const tiles = [
   {
     txt: "Prawo pracy",
     url: "tile2.jpg",
+    slug: "prawo-pracy",
     describe: [
       "bieżąca obsługa prawna pracodawców, w tym: przygotowywanie opinii prawnych, umów o pracę, regulaminów pracy, regulaminów wynagradzania, układów zbiorowego prawa pracy",
       "prowadzenie spraw z zakresu prawa pracy, w tym dotyczących: rozwiązania stosunku pracy, mobbingu, ustalenia stosunku pracy, roszczeń odszkodowawczych, stosowania kar porządkowych",
@@ -41,18 +83,19 @@ export const tiles = [
   {
     txt: "Prawo nieruchomości",
     url: "tile3.jpg",
+    slug: "prawo-nieruchomosci",
     describe: [
-      "obsługa prawna uczestników obrotu nieruchomościami obejmująca: przygotowywanie projektów umów sprzedaży, umów dotyczących korzystania z nieruchomości lub ich części",
-      "reprezentacja podmiotów przed organami administracji publicznej oraz sądami administracyjnymi w postępowaniach uwłaszczeniowych oraz komunalizacyjnych",
-      "reprezentacja podmiotów przed sądami powszechnymi w sprawach dotyczących obrotu nieruchomościami, ustanawiania ograniczonych praw rzeczowych w zakresie powództw o rozwiązanie umowy użytkowania wieczystego",
-      "reprezentacja użytkowników wieczystych przed organem oraz sądem powszechnym w zakresie wysokości opłaty z tytułu użytkowania wieczystego oraz w zakresie ustalenia lub zmiany stawki procentowej opłaty z tytułu użytkowania wieczystego",
+      "obsługa prawna obrotu nieruchomościami i przygotowywanie umów",
+      "reprezentacja przed organami administracji i sądami w sprawach uwłaszczeniowych i komunalizacyjnych",
+      "reprezentacja w sprawach opłat i stawek użytkowania wieczystego",
       "obsługa prawna wspólnot mieszkaniowych",
-      "prowadzenie sporów sądowych o uchylenie uchwał wspólnot mieszkaniowych ",
+      "prowadzenie sporów o uchylenie uchwał wspólnot mieszkaniowych",
     ],
   },
   {
     txt: "Prawo spadkowe",
     url: "tile4.jpg",
+    slug: "prawo-spadkowe",
     describe: [
       "doradztwo w zakresie dziedziczenia ustawowego i testamentowego",
       "dział spadku",
@@ -62,6 +105,7 @@ export const tiles = [
   {
     txt: "Prawo administracyjne",
     url: "tile5.jpg",
+    slug: "prawo-administracyjne",
     describe: [
       "reprezentacja w postępowaniach administracyjnych i sądowo-administracyjnych w sprawach z zakresu decyzji",
     ],
@@ -69,6 +113,7 @@ export const tiles = [
   {
     txt: "Prawo upadłościowe",
     url: "tile6.jpg",
+    slug: "prawo-upadlosciowe",
     describe: [
       "składanie wniosków o ogłoszenie upadłości konsumenckiej i upadłości gospodarczej",
       "reprezentacja przed sądem upadłościowym w postępowaniu wywołanym wnioskiem o ogłoszenie upadłości",
@@ -78,6 +123,7 @@ export const tiles = [
   {
     txt: "Windykacja i ochrona dłużnika w postępowaniu egzekucyjnym",
     url: "tile7.jpg",
+    slug: "windykacja",
     describe: [
       "przygotowywanie wezwań do zapłaty",
       "przygotowywanie pozwów o zapłatę",
@@ -89,7 +135,8 @@ export const tiles = [
   },
   {
     txt: "Prawo cywilne",
-    url: "tile10.jpg",
+    url: "tile8.jpg",
+    slug: "prawo-cywilne",
     describe: [
       "odszkodowania i zadośćuczynienia",
       "doradztwo prawne,",
@@ -103,6 +150,7 @@ export const tiles = [
     ],
   },
 ];
+
 export const members = [
   {
     name: "Mariusz Gołębiowski",
@@ -114,16 +162,6 @@ export const members = [
     description:
       "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek prawa handlowego. Specjalizuje się w prawie cywilnym, gospodarczym oraz handlowym. ",
   },
-  //   {
-  //     name: "Jarosław Kryska",
-  //     position: "radca prawny",
-  //     img: "member2.jpg",
-  //     ln: "",
-  //     fb: "home",
-  //     tt: "home",
-  //     description:
-  //       "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym",
-  //   },
   {
     name: "Magdalena George",
     position: "Specjalista ds prawnych",
@@ -132,7 +170,7 @@ export const members = [
     fb: "https://www.facebook.com/magdaa.george",
     tt: "#home",
     description:
-      "Absolwentka studiów licencjackich na kierunku administracja na Uniwersytecie Wrocławskim. Posiada wieloletnie doświadczenie pracy w biurze kancelarii, obejmujące przygotowywanie projektów pism procesowych, obsługę systemów informatycznych kancelarii, obsługę systemów elektronicznego obiegu dokumentów w firmie (SEOD), monitorowanie spraw egzekucyjnych, kontakt z sądami i komornikami",
+      "Absolwentka studiów magisterskich na kierunku prawo oraz studiów licencjackich na kierunku administracja na Uniwersytecie Wrocławskim. Posiada wieloletnie doświadczenie pracy w kancelarii prawnej, obejmujące przygotowywanie projektów pism procesowych, obsługę systemów informatycznych kancelarii monitorowanie spraw sądowych i egzekucyjnych, kontakt z sądami i komornikami.",
   },
 ];
 
@@ -155,14 +193,8 @@ export const formFields: {
 ];
 export const siteMap = [
   {
-    title: "O NAS",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, error! Libero voluptatum odio tempora iste optio ad perferendis sapiente. Voluptates, dolorum eius! Praesentium omnis obcaecati saepearchitecto quod? Non accusantium commodi esse.",
-    desc2: "",
-    class: "about-us",
-  },
-  {
     title: "GODZINY PRACY",
-    desc: "Pon - Pt: 9:00 - 15:00",
+    desc: "Pon - Pt: 8:00 - 15:00",
     desc2: "Sobota: 9:00 - 13:00",
   },
   {

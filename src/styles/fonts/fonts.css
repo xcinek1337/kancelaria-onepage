@@ -30,7 +30,6 @@
   font-display: swap;
 }
 
-
 @font-face {
   font-family: "Lato";
   src: url("/fonts/Lato-Regular.ttf") format("truetype");
@@ -60,5 +59,26 @@
   src: url("/fonts/Lato-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LoraCustom";
+  src: url("/fonts/Lora-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("/fonts/Mulish-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }

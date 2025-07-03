@@ -1,0 +1,24 @@
+---
+import { Header } from '../../components/ui/organisms/Header.jsx';
+import { ContactBar } from '../../components/ui/molecules/ContactBar.jsx';
+import  { tiles } from '../../components/data/data';
+import RootLayout from '../../layouts/RootLayout.astro';
+import { Wrapper } from '../../components/ui/atoms/Wrapper';
+
+
+export async function getStaticPaths() {
+  return tiles.map(tile => ({
+    params: { slug: tile.slug }
+  }));
+}
+
+const { slug } = Astro.params;
+const tile = tiles.find(t => t.slug === slug) ?? { txt: "Nie znaleziono", describe: "" };
+---
+
+<RootLayout title={tile.txt} description={tile.describe}>
+  <Wrapper>
+    <h1 class="text-4xl px-4 mt-10 font-bold text-brownie mb-4">{tile.txt}</h1>
+    <p class="text-lg px-4 text-gray-700 leading-relaxed max-w-prose">{tile.describe}</p>
+  </Wrapper>
+</RootLayout>

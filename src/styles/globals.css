@@ -10,6 +10,8 @@
 /* divine size navbar in nav scrolling */
 html {
   scroll-padding-top: 123px;
+  scroll-behavior: smooth;
+  font-family: LoraCustom, serif;
 }
 
 .hero {
@@ -31,9 +33,6 @@ html {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-}
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
 }
 .flip-card-front,
 .flip-card-back {

@@ -1,17 +1,19 @@
 ---
 import { HeroImg } from '../components/ui/organisms/HeroImg';
 import { AboutCompany } from '../components/ui/organisms/AboutCompany.tsx';
-import { Services } from '../components/ui/organisms/Services.jsx';
+import { Specializations } from '../components/ui/organisms/Specializations.js';
 import { Team } from '../components/ui/organisms/Team.jsx';
 import { Contact } from '../components/ui/organisms/Contact.jsx';
 import { Footer } from '../components/ui/organisms/Footer.jsx';
 import RootLayout from '../layouts/RootLayout.astro';
+import { Services } from '../components/ui/organisms/Services';
 
 ---
 
 <RootLayout>
   <HeroImg />
   <AboutCompany />
+  <Specializations />
   <Services />
   <Team />
   <Contact client:load/>

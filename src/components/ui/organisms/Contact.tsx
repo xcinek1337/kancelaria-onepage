@@ -61,7 +61,7 @@ export const Contact = () => {
       >
         <div className="h-full w-full bg-amber-300/15 px-3 pt-10 backdrop-brightness-50">
           <Wrapper>
-            <h2 className="font-playfair text-4xl text-white  md:text-5xl lg:mt-8 lg:text-6xl">
+            <h2 className="font-LoraCustom text-4xl text-white  md:text-5xl lg:mt-8 lg:text-6xl">
               Umów się na bezpłatną konsultację
             </h2>
             <p className="mt-6 text-sm text-white">
@@ -98,7 +98,7 @@ export const Contact = () => {
                     {errors[field.name] && (
                       <p
                         id={`${field.name}-error`}
-                        className="mt-1 text-sm font-medium text-red-600"
+                        className="mt-1 text-sm font-Mulish font-medium text-red-600"
                       >
                         {errors[field.name]}
                       </p>
