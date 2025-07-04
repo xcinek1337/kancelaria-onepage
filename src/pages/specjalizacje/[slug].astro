@@ -1,33 +1,27 @@
----
-import { Header } from '../../components/ui/organisms/Header.jsx';
-import { ContactBar } from '../../components/ui/molecules/ContactBar.jsx';
-import { tiles } from '../../components/data/data';
-import RootLayout from '../../layouts/RootLayout.astro';
-import { Wrapper } from '../../components/ui/atoms/Wrapper';
+  ---
+  import { tiles } from '../../components/data/data';
+  import RootLayout from '../../layouts/RootLayout.astro';
+  import { Wrapper } from '../../components/ui/atoms/Wrapper';
 
-export async function getStaticPaths() {
-  return tiles.map(tile => ({
-    params: { slug: tile.slug }
-  }));
-}
+  export async function getStaticPaths() {
+    return tiles.map(tile => ({
+      params: { slug: tile.slug }
+    }));
+  }
 
-const { slug } = Astro.params;
-const tile = tiles.find(t => t.slug === slug) ?? { txt: "Nie znaleziono", describe: [] };
----
+  const { slug } = Astro.params;
+  const tile = tiles.find(t => t.slug === slug) ?? { txt: "Nie znaleziono", describe: [] };
+  ---
 
-<RootLayout title={tile.txt} description={tile.describe.join(", ")}>
-  <Wrapper>
-    <h1 class="text-4xl px-4 mt-10 font-bold text-brownie mb-4">{tile.txt}</h1>
-    <ul class="list-disc list-inside px-6">
-      {tile.describe.length > 0 ? (
-        <>
+  <RootLayout title={tile.txt} description={tile.describe.join(", ")}>
+    <Wrapper>
+      <div class="px-4 sm:px-2"   style="min-height: calc(100vh - 220px)">
+        <h1 class="text-4xl px-4 mt-10 font-bold text-brownie mb-4">{tile.txt}</h1>
+        <ul class="font-Mulish px-6" style="margin:42px 0; list-style: disc;">
           {tile.describe.map(item => (
-            <li class="mb-2 text-lg text-gray-700">{item}</li>
+            <li style="margin-bottom: 10px;" class="text-lg text-gray-700">{item}</li>
           ))}
-        </>
-      ) : (
-        <li class="mb-2 text-lg text-gray-700">Brak opisu</li>
-      )}
-    </ul>
-  </Wrapper>
-</RootLayout>
+        </ul>
+      </divn>
+    </Wrapper>
+  </RootLayout>

@@ -12,7 +12,7 @@ export const AboutCompany = () => {
             Witaj w naszej Kancelarii
           </p>
 
-          <p className="font-Mulish leading-tight tracking-wide mt-8 px-4 text-lg md:text-2xl lg:text-4xl">
+          <p className="font-Lora leading-tight tracking-wide mt-8 px-4 text-lg md:text-2xl lg:text-4xl">
             Kancelaria specjalizuje się w kompleksowej obsłudze prawnej
             przedsiębiorców, spółek prawa handlowego oraz klientów
             indywidualnych. Dzięki wieloletniemu doświadczeniu zapewniamy naszym

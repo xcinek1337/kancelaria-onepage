@@ -21,7 +21,7 @@ export const services = [
     icon: FileStack,
   },
   {
-    txt: "Negocjajce prawne",
+    txt: "Negocjacje prawne",
     icon: HandHelping,
   },
   {
@@ -152,16 +152,16 @@ export const tiles = [
 ];
 
 export const members = [
-  {
-    name: "Mariusz Gołębiowski",
-    position: "radca prawny",
-    img: "member1.jpg",
-    fb: "",
-    ln: "#home",
-    tt: "#home",
-    description:
-      "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek prawa handlowego. Specjalizuje się w prawie cywilnym, gospodarczym oraz handlowym. ",
-  },
+      {
+      name: "Jarosław Kryska",
+      position: "radca prawny",
+      img: "member2.jpg",
+      ln: "",
+      fb: "home",
+      tt: "home",
+      description:
+        "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym",
+    },
   {
     name: "Magdalena George",
     position: "Specjalista ds prawnych",
@@ -195,7 +195,6 @@ export const siteMap = [
   {
     title: "GODZINY PRACY",
     desc: "Pon - Pt: 8:00 - 15:00",
-    desc2: "Sobota: 9:00 - 13:00",
   },
   {
     title: "ADRES",
