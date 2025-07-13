@@ -62,7 +62,7 @@ export const Contact = () => {
         <div className="h-full w-full bg-amber-300/15 px-3 pt-10 backdrop-brightness-50">
           <Wrapper>
             <h2 className="font-LoraCustom text-4xl text-white  md:text-5xl lg:mt-8 lg:text-6xl">
-              Umów się na bezpłatną konsultację
+              Umów się na konsultację
             </h2>
             <p className="mt-6 text-sm text-white">
               Proszę wpisać swoje dane kontaktowe, a my skontaktujemy się z

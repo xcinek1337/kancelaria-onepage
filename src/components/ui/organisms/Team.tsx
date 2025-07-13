@@ -24,7 +24,7 @@ export const Team = () => {
                   <p className="mt-4 text-sm text-gray-600">
                     {member.position.toUpperCase()}
                   </p>
-                  <div className="mt-6 flex items-center justify-center gap-2 text-gray-600">
+                  {/* <div className="mt-6 flex items-center justify-center gap-2 text-gray-600">
                     {member.ln && (
                       <a
                         href={member.ln}
@@ -52,7 +52,7 @@ export const Team = () => {
                         <Twitter size={14} />
                       </a>
                     )}
-                  </div>
+                  </div> */}
                 </h3>
                 <div className="mx-auto mt-4 h-1 w-12 rounded-md bg-brownie md:w-20"></div>
                 <p className="my-6 md:my-8 px-4 font-Mulish text-sm tracking-wide text-gray-500 md:text-base lg:mt-12 lg:text-lg">

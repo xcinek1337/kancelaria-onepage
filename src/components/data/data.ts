@@ -24,12 +24,12 @@ export const services = [
     txt: "Negocjacje prawne",
     icon: HandHelping,
   },
+  // {
+  //   txt: "Mediacja sądowa",
+  //   icon: Megaphone,
+  // },
   {
-    txt: "Mediacja sądowa",
-    icon: Megaphone,
-  },
-  {
-    txt: "Zastępstwo prawne",
+    txt: "Zastępstwo procesowe",
     icon: Users,
   },
   {
@@ -66,9 +66,10 @@ export const tiles = [
     url: "tile1.jpg",
     slug: "prawo-spolki",
     describe: [
-      "zakładanie, przekształcanie, łącznie, podział i likwidacja spółek",
-      "obsługa prawna organów spółek kapitałowych",
-      "przygotowywanie projektów uchwał wspólników w spółkach osobowych",
+      "Zakładanie, przekształcanie, łącznie, podział i likwidacja spółek",
+      "Obsługa prawna organów spółek kapitałowych",
+      "Przygotowywanie projektów uchwał wspólników w spółkach osobowych",
+      "Przygotowanie projektów uchwał organów spółek kapitałowych"
     ],
   },
   {
@@ -76,8 +77,8 @@ export const tiles = [
     url: "tile2.jpg",
     slug: "prawo-pracy",
     describe: [
-      "bieżąca obsługa prawna pracodawców, w tym: przygotowywanie opinii prawnych, umów o pracę, regulaminów pracy, regulaminów wynagradzania, układów zbiorowego prawa pracy",
-      "prowadzenie spraw z zakresu prawa pracy, w tym dotyczących: rozwiązania stosunku pracy, mobbingu, ustalenia stosunku pracy, roszczeń odszkodowawczych, stosowania kar porządkowych",
+      "Bieżąca obsługa prawna pracodawców, w tym: przygotowywanie opinii prawnych, umów o pracę, regulaminów pracy, regulaminów wynagradzania, układów zbiorowego prawa pracy",
+      "Prowadzenie spraw z zakresu prawa pracy, w tym dotyczących: rozwiązania stosunku pracy, mobbingu, ustalenia stosunku pracy, roszczeń odszkodowawczych, stosowania kar porządkowych",
     ],
   },
   {
@@ -85,11 +86,11 @@ export const tiles = [
     url: "tile3.jpg",
     slug: "prawo-nieruchomosci",
     describe: [
-      "obsługa prawna obrotu nieruchomościami i przygotowywanie umów",
-      "reprezentacja przed organami administracji i sądami w sprawach uwłaszczeniowych i komunalizacyjnych",
-      "reprezentacja w sprawach opłat i stawek użytkowania wieczystego",
-      "obsługa prawna wspólnot mieszkaniowych",
-      "prowadzenie sporów o uchylenie uchwał wspólnot mieszkaniowych",
+      "Obsługa prawna obrotu nieruchomościami i przygotowywanie umów",
+      "Reprezentacja przed organami administracji i sądami w sprawach uwłaszczeniowych i komunalizacyjnych",
+      "Reprezentacja w sprawach opłat i stawek użytkowania wieczystego",
+      "Obsługa prawna wspólnot mieszkaniowych",
+      "Prowadzenie sporów o uchylenie uchwał wspólnot mieszkaniowych",
     ],
   },
   {
@@ -97,9 +98,9 @@ export const tiles = [
     url: "tile4.jpg",
     slug: "prawo-spadkowe",
     describe: [
-      "doradztwo w zakresie dziedziczenia ustawowego i testamentowego",
-      "dział spadku",
-      "reprezentacja w sprawach o zachowek ",
+      "Doradztwo w zakresie dziedziczenia ustawowego i testamentowego",
+      "Dział spadku",
+      "Reprezentacja w sprawach o zachowek ",
     ],
   },
   {
@@ -107,7 +108,11 @@ export const tiles = [
     url: "tile5.jpg",
     slug: "prawo-administracyjne",
     describe: [
-      "reprezentacja w postępowaniach administracyjnych i sądowo-administracyjnych w sprawach z zakresu decyzji",
+      "Prawo budowlane w zakresie wydawanych decyzji przez organy nadzoru budowlanego",
+      "Odwołania i skargi w zakresie decyzji administracyjnych wpisu do obiektu do rejestru zabytków",
+      "Komunalizacja mienia, uwłaszczenie przedsiębiorstw państwowych",
+      "Reprezentacja strony w postępowaniach administracyjnych i sądowo-administracyjnych",
+      "Reprezentacja w postępowaniach administracyjnych i sądowo-administracyjnych w sprawach z zakresu decyzji",
     ],
   },
   {
@@ -115,9 +120,9 @@ export const tiles = [
     url: "tile6.jpg",
     slug: "prawo-upadlosciowe",
     describe: [
-      "składanie wniosków o ogłoszenie upadłości konsumenckiej i upadłości gospodarczej",
-      "reprezentacja przed sądem upadłościowym w postępowaniu wywołanym wnioskiem o ogłoszenie upadłości",
-      "przygotowywanie pism procesowych, w tym: skarga na czynności syndyka, wniosek o wyłączenie z masy upadłości ruchomości",
+      "Składanie wniosków o ogłoszenie upadłości konsumenckiej i upadłości gospodarczej",
+      "Reprezentacja przed sądem upadłościowym w postępowaniu wywołanym wnioskiem o ogłoszenie upadłości",
+      "Przygotowywanie pism procesowych, w tym: skarga na czynności syndyka, wniosek o wyłączenie z masy upadłości ruchomości",
     ],
   },
   {
@@ -125,12 +130,12 @@ export const tiles = [
     url: "tile7.jpg",
     slug: "windykacja",
     describe: [
-      "przygotowywanie wezwań do zapłaty",
-      "przygotowywanie pozwów o zapłatę",
-      "reprezentacja przed sądem powszechnym i Sądem Najwyższym",
-      "reprezentowanie wierzyciela/dłużnika w toku przed organem egzekucyjnym",
-      "pomoc dłużnikom w sprawach związanych z prowadzeniem postępowania egzekucyjnego w stosunku do ich nieruchomości",
-      "pomoc dłużnikom w sprawach eksmisji z nieruchomości",
+      "Przygotowywanie wezwań do zapłaty",
+      "Przygotowywanie pozwów o zapłatę",
+      "Reprezentacja przed sądami powszechnymi i Sądem Najwyższym",
+      "Reprezentowanie wierzyciela/dłużnika w toku przed organem egzekucyjnym",
+      "Pomoc dłużnikom w sprawach związanych z prowadzeniem postępowania egzekucyjnego w stosunku do ich nieruchomości",
+      "Pomoc dłużnikom w sprawach eksmisji z nieruchomości",
     ],
   },
   {
@@ -138,30 +143,32 @@ export const tiles = [
     url: "tile8.jpg",
     slug: "prawo-cywilne",
     describe: [
-      "odszkodowania i zadośćuczynienia",
-      "doradztwo prawne,",
-      "pomoc przy negocjacjach z kontrahentami,",
-      "podział majątku",
-      "opiniowanie i sporządzanie umów cywilnoprawnych",
-      "sprawy o zapłatę",
-      "zasiedzenie",
-      "eksmisja",
-      "zniesienie współwłasności",
+      "Odszkodowania i zadośćuczynienia",
+      "Doradztwo prawne,",
+      "Pomoc przy negocjacjach z kontrahentami,",
+      "Podział majątku",
+      "Opiniowanie i sporządzanie umów cywilnoprawnych",
+      "Sprawy o zapłatę",
+      "Zasiedzenie",
+      "Eksmisja",
+      "Zniesienie współwłasności",
+      "Aktualizacja opłat z tytułu oddanie nieruchomości w użytkowanie wieczyste i stawki procentowej",
+      "Rozwiązanie użytkowania wieczystego"
     ],
   },
 ];
 
 export const members = [
-      {
-      name: "Jarosław Kryska",
-      position: "radca prawny",
-      img: "member2.jpg",
-      ln: "",
-      fb: "home",
-      tt: "home",
-      description:
-        "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym",
-    },
+  {
+    name: "Jarosław Kryska",
+    position: "radca prawny",
+    img: "member2.jpg",
+    ln: "",
+    fb: "home",
+    tt: "home",
+    description:
+      "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym.",
+  },
   {
     name: "Magdalena George",
     position: "Specjalista ds prawnych",
@@ -203,7 +210,8 @@ export const siteMap = [
   },
   {
     title: "KONTAKT",
-    desc: "telefon: (71) 717 12 57",
-    desc2: "email: kancelariapartnerska@gmail.com",
+    tel: "telefon: 509-205-482",
+    tel1: "telefon: 663-468-649",
+    desc2: "email: kancelariakryska@gmail.com"
   },
 ];
