@@ -63,18 +63,18 @@ export const AboutCompanyCards = [
 export const tiles = [
   {
     txt: "Prawo spółek handlowych",
-    url: "tile1.jpg",
+    url: "prawoSH.jpg",
     slug: "prawo-spolki",
     describe: [
-      "Zakładanie, przekształcanie, łącznie, podział i likwidacja spółek",
+      "Zakładanie, przekształcanie, łączenie, podział i likwidacja spółek",
       "Obsługa prawna organów spółek kapitałowych",
       "Przygotowywanie projektów uchwał wspólników w spółkach osobowych",
-      "Przygotowanie projektów uchwał organów spółek kapitałowych"
+      "Przygotowanie projektów uchwał organów spółek kapitałowych",
     ],
   },
   {
     txt: "Prawo pracy",
-    url: "tile2.jpg",
+    url: "prawopracy.jpg",
     slug: "prawo-pracy",
     describe: [
       "Bieżąca obsługa prawna pracodawców, w tym: przygotowywanie opinii prawnych, umów o pracę, regulaminów pracy, regulaminów wynagradzania, układów zbiorowego prawa pracy",
@@ -83,7 +83,7 @@ export const tiles = [
   },
   {
     txt: "Prawo nieruchomości",
-    url: "tile3.jpg",
+    url: "prawoNieruch.jpg",
     slug: "prawo-nieruchomosci",
     describe: [
       "Obsługa prawna obrotu nieruchomościami i przygotowywanie umów",
@@ -95,7 +95,7 @@ export const tiles = [
   },
   {
     txt: "Prawo spadkowe",
-    url: "tile4.jpg",
+    url: "prawoSpadkowe.jpg",
     slug: "prawo-spadkowe",
     describe: [
       "Doradztwo w zakresie dziedziczenia ustawowego i testamentowego",
@@ -105,19 +105,18 @@ export const tiles = [
   },
   {
     txt: "Prawo administracyjne",
-    url: "tile5.jpg",
+    url: "prawoAdminist.jpg",
     slug: "prawo-administracyjne",
     describe: [
       "Prawo budowlane w zakresie wydawanych decyzji przez organy nadzoru budowlanego",
-      "Odwołania i skargi w zakresie decyzji administracyjnych wpisu do obiektu do rejestru zabytków",
+      "Odwołania i skargi w zakresie decyzji administracyjnych dotyczących wpisu do obiektu do rejestru zabytków",
       "Komunalizacja mienia, uwłaszczenie przedsiębiorstw państwowych",
       "Reprezentacja strony w postępowaniach administracyjnych i sądowo-administracyjnych",
-      "Reprezentacja w postępowaniach administracyjnych i sądowo-administracyjnych w sprawach z zakresu decyzji",
     ],
   },
   {
     txt: "Prawo upadłościowe",
-    url: "tile6.jpg",
+    url: "prawoUpadlosc.jpg",
     slug: "prawo-upadlosciowe",
     describe: [
       "Składanie wniosków o ogłoszenie upadłości konsumenckiej i upadłości gospodarczej",
@@ -127,7 +126,7 @@ export const tiles = [
   },
   {
     txt: "Windykacja i ochrona dłużnika w postępowaniu egzekucyjnym",
-    url: "tile7.jpg",
+    url: "windykacja.jpg",
     slug: "windykacja",
     describe: [
       "Przygotowywanie wezwań do zapłaty",
@@ -140,7 +139,7 @@ export const tiles = [
   },
   {
     txt: "Prawo cywilne",
-    url: "tile8.jpg",
+    url: "prawoCywilne.jpg",
     slug: "prawo-cywilne",
     describe: [
       "Odszkodowania i zadośćuczynienia",
@@ -153,7 +152,7 @@ export const tiles = [
       "Eksmisja",
       "Zniesienie współwłasności",
       "Aktualizacja opłat z tytułu oddanie nieruchomości w użytkowanie wieczyste i stawki procentowej",
-      "Rozwiązanie użytkowania wieczystego"
+      "Rozwiązanie użytkowania wieczystego",
     ],
   },
 ];
@@ -167,7 +166,7 @@ export const members = [
     fb: "home",
     tt: "home",
     description:
-      "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego, a od 2006 r. jako wspólnik spółki partnerskiej. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym.",
+      "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym.",
   },
   {
     name: "Magdalena George",
@@ -205,13 +204,13 @@ export const siteMap = [
   },
   {
     title: "ADRES",
-    desc: "ul.Joannitów 13/332",
+    desc: "ul. Joannitów 13/332",
     desc2: "Wroclaw 50-525",
   },
   {
     title: "KONTAKT",
     tel: "telefon: 509-205-482",
     tel1: "telefon: 663-468-649",
-    desc2: "email: kancelariakryska@gmail.com"
+    desc2: "email: kancelariakryska@gmail.com",
   },
 ];
