@@ -166,17 +166,17 @@ export const members = [
     fb: "home",
     tt: "home",
     description:
-      "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorstw oraz spółek. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym.",
+      "Radca prawny działający od 2003 roku w ramach indywidualnej kancelarii radcy prawnego. Absolwent studiów prawniczych na Uniwersytecie Wrocławskim. Wpisany na listę radców prawnych pod numerem WŁ/WB/434. W ramach swojej praktyki zajmuje się obsługą prawną przedsiębiorców oraz spółek prawa handlowego. Specjalizuje się w prawie cywilnym, gospodarczym oraz administracyjnym. Posiada ponad 20-letnie doświadczenie w reprezentowaniu klientów przed sądami powszechnymi, Sądem Najwyższym, organami administracji publicznej, Samorządowym Kolegium Odwoławczym oraz sądami administracyjnymi.",
   },
   {
     name: "Magdalena George",
-    position: "Specjalista ds prawnych",
+    position: "Specjalista ds. prawnych",
     img: "member3.jpg",
     ln: "https://www.linkedin.com/in/magdalena-george?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADnl-d4BQqhf3tljFhOXhPePBa-Nlg5Nqy8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BWvzjjcDjTmafXDNkjx%2B%2BlQ%3D%3D",
     fb: "https://www.facebook.com/magdaa.george",
     tt: "#home",
     description:
-      "Absolwentka studiów magisterskich na kierunku prawo oraz studiów licencjackich na kierunku administracja na Uniwersytecie Wrocławskim. Posiada wieloletnie doświadczenie pracy w kancelarii prawnej, obejmujące przygotowywanie projektów pism procesowych, obsługę systemów informatycznych kancelarii monitorowanie spraw sądowych i egzekucyjnych, kontakt z sądami i komornikami.",
+      "Absolwentka studiów prawniczych na Wydziale Prawa Administracji i Ekonomii Uniwersytetu Wrocławskiego oraz studiów licencjackich na kierunku administracja. Posiada wieloletnie doświadczenie pracy w kancelarii prawnej, obejmujące przygotowywanie projektów pism procesowych, obsługę systemów informatycznych kancelarii monitorowanie spraw sądowych i egzekucyjnych, kontakt z sądami i komornikami. Specjalizuje się w prawie upadłościowym, w szczególności w upadłości konsumenckiej oraz prawie cywilnym w postępowaniach eksmisyjnych.",
   },
 ];
 
